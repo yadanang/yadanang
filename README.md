@@ -1,4 +1,4 @@
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31kpyskxc57r4sjgmhnbd3tafo6q&unique={true|1|on|yes}&count=3&width=300)
+![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31kpyskxc57r4sjgmhnbd3tafo6q&unique={true|1|on|yes}&count=1&width=300)
 
 
 <div align="center">
@@ -25,3 +25,13 @@ You are my ![Visitor Count](https://profile-counter.glitch.me/yadanang/count.svg
 
  ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)  ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)  ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)   ![](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)   ![](https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white)  
+
+
+
+
+
+
+
+
+
+
