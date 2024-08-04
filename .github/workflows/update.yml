@@ -1,32 +1,24 @@
-name: Periodic File Generation
+name: ci
 
 on:
+  push:
+    branches:
+      - master
   schedule:
-    - cron: '0 * * * *'  # 每小时运行一次
-  workflow_dispatch:  # 允许手动触发工作流
+    - cron: "0 0 * * *"
 
 jobs:
-  generate-and-commit:
+  autogreen:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
+      - name: Clone repository
+        uses: actions/checkout@v2
 
-      - name: Generate a file
+      - name: Auto green
         run: |
-          echo "Current timestamp: $(date)" > generated_file.txt
-
-      - name: Configure Git
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'actions@github.com'
-
-      - name: Commit and push changes
-        run: |
-          git add generated_file.txt
-          git commit -m "Update generated_file.txt with new timestamp"
+          git config --local user.email "2192097421@qq.com"
+          git config --local user.name "yadanang"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull --rebase
+          git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
-
-      - name: Verify file was updated
-        run: cat generated_file.txt
