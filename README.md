@@ -1,7 +1,7 @@
 ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31kpyskxc57r4sjgmhnbd3tafo6q&unique={true|1|on|yes}&count=1&width=300)
 
 
-<div align="center">
+<div align="center"> 
   <a href="https://blog.sunguoqi.com/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFB6C1&width=435&lines=⌯>ᴗo⌯ಣ 欢迎来到我的主页☻~&center=true&size=27" alt="Typing SVG" />
   </a>
